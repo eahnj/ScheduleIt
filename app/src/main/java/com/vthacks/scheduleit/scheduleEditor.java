@@ -28,7 +28,7 @@ public class scheduleEditor extends AppCompatActivity {
 
     String Name;
     String Time;
-    String Date;
+    String Date = "0/0/0";
     boolean bookmark;
 
 
@@ -69,14 +69,15 @@ public class scheduleEditor extends AppCompatActivity {
             }
         });
 
-       // ArrayList<Integer> dateArrayList = new ArrayList<>();
-       // String[] dateArray = Date.split("/");
-       // for (int i = 0; i<3;i++) {
+       ArrayList<Integer> dateArrayList = new ArrayList<>();
+       String[] dateArray = Date.split("/");
 
-         //dateArrayList.add(Integer.parseInt(dateArray[i]));
+       for (int i = 0; i<3;i++) {
 
-        // }
+         dateArrayList.add(Integer.parseInt(dateArray[i]));
 
-         //Schedule event = new Schedule(Name,Time,dateArrayList,bookmark);
+         }
+
+         Schedule event = new Schedule(Name,Time,dateArrayList,bookmark);
     }
 }
