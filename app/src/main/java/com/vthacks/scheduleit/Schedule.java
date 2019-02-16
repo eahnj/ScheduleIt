@@ -6,21 +6,21 @@ import java.util.ArrayList;
 public class Schedule {
     //Variables
     String name;        //name of event
-    int time;           //time of event
+    String time;           //time of event
     Boolean bookmark;   //event bookmark. Bookmarked events are reminded at every instance, until it happens.
 
     //ArrayList to hold ???? values
-    ArrayList<String> day;
+    ArrayList<Integer> day;
 
     //Constructors
-    public Schedule(String name, int time, ArrayList<String> day){
+    public Schedule(String name, String time, ArrayList<Integer> day){
         this.name = name;
         this.time = time;
         this.day = day;
         this.bookmark = false;
     }
 
-    public Schedule(String name, int time, ArrayList<String> day, Boolean bookmark){
+    public Schedule(String name, String time, ArrayList<Integer> day, Boolean bookmark){
         this.name = name;
         this.time = time;
         this.day = day;
@@ -36,19 +36,19 @@ public class Schedule {
         this.name = name;
     }
 
-    public int getTime(){
+    public String getTime(){
         return time;
     }
 
-    public void setTime(int time){
+    public void setTime(String time){
         this.time = time;
     }
 
-    public ArrayList<String> getDay(){
+    public ArrayList<Integer> getDay(){
         return day;
     }
 
-    public void setDay(ArrayList<String> day){
+    public void setDay(ArrayList<Integer> day){
         this.day = day;
     }
 
