@@ -18,6 +18,7 @@ public class scheduleEditor extends AppCompatActivity {
             public void onClick(View v) {
                 Intent startIntent = new Intent(getApplicationContext(), scheduleDisplay.class);
                 startActivity(startIntent);
+
             }
         });
     }

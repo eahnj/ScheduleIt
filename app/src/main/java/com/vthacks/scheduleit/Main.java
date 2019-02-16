@@ -16,7 +16,7 @@ public class Main extends AppCompatActivity {
         scheduleBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(),schedulePage.class);
+                Intent startIntent = new Intent(getApplicationContext(),scheduleDisplay.class);
                 startActivity(startIntent);
 
             }
