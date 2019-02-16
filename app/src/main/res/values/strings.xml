@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ScheduleIt</string>
+    <string name="schedulBtn">scheduleBtn</string>
+    <string name="title_activity_schedule_page">schedulePage</string>
 </resources>
