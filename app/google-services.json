@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "996851301524",
+    "firebase_url": "https://vthacks-74bcb.firebaseio.com",
+    "project_id": "vthacks-74bcb",
+    "storage_bucket": "vthacks-74bcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996851301524:android:d792f3f799e1f777",
+        "android_client_info": {
+          "package_name": "com.vthacks.scheduleit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996851301524-a7vohqeompb1kv8vtvig4030rf3v7275.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAy3Ql_e5d60-KFX5Q3UZaiEClvjwxPy4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
