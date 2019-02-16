@@ -5,25 +5,23 @@ import java.util.ArrayList;
 
 public class Schedule {
     //Variables
-    String name;        //name of event
-    int time;           //time of event
-    Boolean bookmark;   //event bookmark. Bookmarked events are reminded at every instance, until it happens.
-
-    //ArrayList to hold ???? values
-    ArrayList<String> day;
+    String name;            //name of event
+    int time;               //time of event
+    Boolean bookmark;       //event bookmark. Bookmarked events are reminded at every instance, until it happens.
+    ArrayList<Integer> date; //ArrayList to hold date.
 
     //Constructors
-    public Schedule(String name, int time, ArrayList<String> day){
+    public Schedule(String name, int time, ArrayList<Integer> date){
         this.name = name;
         this.time = time;
-        this.day = day;
+        this.date = date;
         this.bookmark = false;
     }
 
-    public Schedule(String name, int time, ArrayList<String> day, Boolean bookmark){
+    public Schedule(String name, int time, ArrayList<Integer> date, Boolean bookmark){
         this.name = name;
         this.time = time;
-        this.day = day;
+        this.date = date;
         this.bookmark = bookmark;
     }
 
@@ -44,12 +42,12 @@ public class Schedule {
         this.time = time;
     }
 
-    public ArrayList<String> getDay(){
-        return day;
+    public ArrayList<Integer> getDate(){
+        return date;
     }
 
-    public void setDay(ArrayList<String> day){
-        this.day = day;
+    public void setDate(ArrayList<Integer> date){
+        this.date = date;
     }
 
     public Boolean getBookmark(){
