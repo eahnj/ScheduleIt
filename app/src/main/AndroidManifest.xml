@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".scheduleEditor"></activity>
+        <activity android:name=".Inventory"></activity>
+        <activity android:name=".thingsForTomorrow" />
+        <activity android:name=".scheduleEditor" />
         <activity android:name=".scheduleDisplay" />
         <activity android:name=".Main">
             <intent-filter>
